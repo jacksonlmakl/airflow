@@ -111,6 +111,7 @@ def github_push():
     repo_url = request.form['repo_url']
     branch_name = request.form['branch_name']
     try:
+        subprocess.run("ssh-keyscan github.com >> ~/.ssh/known_hosts", shell=True, check=True)
         # Ensure git user configuration is set
         subprocess.run(['git', 'config', '--global', 'user.email', 'you@example.com'], check=True)
         subprocess.run(['git', 'config', '--global', 'user.name', 'Your Name'], check=True)
