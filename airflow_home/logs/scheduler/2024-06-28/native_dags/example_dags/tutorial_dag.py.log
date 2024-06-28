@@ -23,3 +23,10 @@
 [2024-06-28T18:13:25.651+0000] {logging_mixin.py:137} INFO - [2024-06-28T18:13:25.651+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2024-06-28T18:13:25.670+0000] {logging_mixin.py:137} INFO - [2024-06-28T18:13:25.670+0000] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2024-06-28T18:13:25.695+0000] {processor.py:175} INFO - Processing /home/jacksonlmakl/data_flow_tool/airflow_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.078 seconds
+[2024-06-28T18:14:04.555+0000] {processor.py:153} INFO - Started process (PID=14270) to work on /home/jacksonlmakl/data_flow_tool/airflow_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-06-28T18:14:04.556+0000] {processor.py:743} INFO - Processing file /home/jacksonlmakl/data_flow_tool/airflow_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-06-28T18:14:04.557+0000] {logging_mixin.py:137} INFO - [2024-06-28T18:14:04.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/jacksonlmakl/data_flow_tool/airflow_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-06-28T18:14:04.565+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/jacksonlmakl/data_flow_tool/airflow_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-06-28T18:14:04.586+0000] {logging_mixin.py:137} INFO - [2024-06-28T18:14:04.585+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-06-28T18:14:04.606+0000] {logging_mixin.py:137} INFO - [2024-06-28T18:14:04.605+0000] {dag.py:3437} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-06-28T18:14:04.628+0000] {processor.py:175} INFO - Processing /home/jacksonlmakl/data_flow_tool/airflow_venv/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.077 seconds
