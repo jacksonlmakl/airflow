@@ -1,4 +1,4 @@
-name: "HELLO_WORLD"
+name: "SNOWFLAKE_RAW"
 frequency: "Daily"
 start_date_year: 2024
 start_month_year: 1
@@ -8,6 +8,5 @@ retry_delay: 5
 schedule_interval: '@daily'
 
 python_scripts:
-  - "script1.py"
-  - "script2.py"
+  - "pokemon_raw.py"
 requirements_file: "requirements.txt"

@@ -6,13 +6,13 @@ import yaml
 import os
 
 def load_config(dag_folder):
-    config_file = os.path.join(dag_folder, f'HELLO_WORLD_configuration.yaml')
+    config_file = os.path.join(dag_folder, f'SNOWFLAKE_RAW_configuration.yaml')
     with open(config_file, 'r') as file:
         return yaml.safe_load(file)
 
 def create_task(dag_folder, task_name):
     def task_function(**kwargs):
-        script_path = os.path.join(dag_folder, 'HELLO_WORLD_scripts', task_name)
+        script_path = os.path.join(dag_folder, 'SNOWFLAKE_RAW_scripts', task_name)
         exec(open(script_path).read())
     return task_function
 
